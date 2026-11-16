@@ -3144,9 +3144,9 @@ export const CategoryPageView: React.FC<CategoryPageViewProps> = ({
                       src="/images/gov_visit_20200706.jpg"
                       alt={lang === 'ko' ? '경북도지사 본사 방문 및 자원화 협의' : 'Gyeongbuk Governor Headquarters Visit'}
                       referrerPolicy="no-referrer"
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-100 brightness-110"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-slate-950/30" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent" />
 
                     {/* 플로팅 배지 */}
                     <div className="absolute top-4 left-4 flex flex-wrap gap-2">
